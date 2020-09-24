@@ -1,9 +1,9 @@
 from .base import *
 
 DEBUG = True
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','badges.dscnitrourkela.tech']
 
-CORS_ORIGIN_WHITELIST =['http://localhost:3000']
+CORS_ORIGIN_WHITELIST =['http://localhost:8080']
 
 DATABASES = {
     'default': {
